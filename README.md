@@ -2,8 +2,9 @@
 Here, the script was written to take backup from mysql docker container and transfer it to the host automatically and when the number of these backups is 4, delete the oldest backup and always have 3 backups.
 
 
-###Attention !
-**backup_from_container.sh ** this file must be placed in container
+###Attention!
+**backup_from_container.sh**
+this file must be placed in container
 ####Notes:
 ```
 $(date +%F)
